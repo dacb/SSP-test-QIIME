@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pick_open_reference_otus.py -o otus/ -i data.filtered/seqs.fna

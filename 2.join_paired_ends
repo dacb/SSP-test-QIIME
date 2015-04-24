@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source globals.sh
+
+multiple_join_paired_ends.py -i data -o tmp

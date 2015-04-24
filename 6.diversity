@@ -1,0 +1,3 @@
+#!/bin/bash
+
+core_diversity_analyses.py -o diversity/ -i otus/otu_table_mc2_w_tax_no_pynast_failures.biom -t otus/rep_set.tre 

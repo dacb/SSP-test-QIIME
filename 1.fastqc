@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd data
+
+for sample in $SAMPLES
+do
+	echo $sample
+	files=`\ls $sample*.fastqc.gz`
+	for file in $files
+	do
+		echo $file
+		fastqc $file >& $file.fastqc.log
+	done
+done

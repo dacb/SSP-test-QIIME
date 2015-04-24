@@ -1,0 +1,3 @@
+#!/bin/bash
+
+multiple_split_libraries_fastq.py -i data.joined -o data.filtered
