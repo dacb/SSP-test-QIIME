@@ -1,0 +1,9 @@
+#!/bin/bash
+
+R --no-save << EOF
+source("thirdparty/loaddata.r");
+
+d <- load.qiime.otu.table(“otus/otu_table_mc2_w_tax_no_pynast_failures.tab”, include.lineages=TRUE); 
+
+head(d);
+EOF
